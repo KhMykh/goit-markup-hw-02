@@ -14,28 +14,29 @@
     <!-- Кастомные стили -->
         <link rel="stylesheet" href="./css/styles.css" />
     </head>
-    <body style="font-family: 'Roboto', sans-serif"; text="#000">
+    <body>
 <!-- Шапка сайта -->
         <header class="header">
-            <a class="header-link" href="./index.html" class="logo">WebStudio</a>
+            <a class="header-link" href="./index.html">WebStudio</a>
             <nav class="nav">
                 <ul class="nav-list">
                     <li class="nav-list">
-                        <a class="nav-item" href="./studio/studio.html">Студия</a>
+                        <a class="nav-item" href="./studio.html">Студия</a>
                     </li>
                     <li class="nav-list">
-                        <a class="nav-item" href="./portfolio/portfolio.html">Портфолио</a>
+                        <a class="nav-item" href="./portfolio.html">Портфолио</a>
                     </li>
                     <li class="nav-list">
                         <a class="nav-item" href="#">Контакты</a>
                     </li>
                  </ul>
             </nav>
-                    <address class="header-email">
-                        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-                    </address>
-                    <address class="header-phone">
-                        <a href="tel:380961111111">+38 096 111 11 11</a>
+            <ul class="header-adress">
+                <li class="header-email"><a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li class="header-phone"><a href="tel:380961111111">+38 096 111 11 11</a>
+                </li>
+            </ul>              
         </header>
         <main>
 <!--1 секция "Hero"-->
@@ -49,19 +50,19 @@
                 <ul class="about-list">
                     <li class="about-item">
                         <h3 class="about-title-2">Внимание к деталям</h3>
-                        <p class="regular-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                        <p class="about-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                     </li>
                     <li class="about-item">
                         <h3 class="about-title-2">Пунктуальность</h3>
-                        <p class="regular-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                        <p class="about-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                     </li>
                     <li class="about-item">
                         <h3 class="about-title-2">Планирование</h3>
-                        <p class="regular-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                        <p class="about-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                     </li>
                     <li class="about-item">
                         <h3 class="about-title-2">Современные технологии</h3>
-                        <p class="regular-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                        <p class="about-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                     </li>
                 </ul>
             </section>
@@ -91,38 +92,38 @@
                 <h2 class="whatwedo-title">Наша команда</h2>
                 <ul class="ourteam-list">
                     <li class="ourteam-item">
-                        <img src="./images/team_member_1.jpg" alt="Игорь Демьяненко" width="270" height="260">
+                        <img class="ourteam-img" src="./images/team_member_1.jpg" alt="Игорь Демьяненко" width="270" height="260">
                         <h3 class="ourteam-title">Игорь Демьяненко</h3>
-                        <p class="regular-text">Product Designer</p>
+                        <p class="ourteam-text">Product Designer</p>
                     </li>
                     <li class="ourteam-item">
-                        <img src="./images/team_member_2.jpg" alt="Ольга Репина" width="270" height="260">
-                        <h3>Ольга Репина</h3>
-                        <p class="regular-text">Frontend Developer</p>
+                        <img class="ourteam-img" src="./images/team_member_2.jpg" alt="Ольга Репина" width="270" height="260">
+                        <h3 class="ourteam-title">Ольга Репина</h3>
+                        <p class="ourteam-text">Frontend Developer</p>
                     </li>
                     <li class="ourteam-item">
-                        <img src="./images/team_member_3.jpg" alt="Николай Тарасов" width="270" height="260">
+                        <img class="ourteam-img" src="./images/team_member_3.jpg" alt="Николай Тарасов" width="270" height="260">
                         <h3 class="ourteam-title">Николай Тарасов</h3>
-                        <p>Marketing</p>
+                        <p class="ourteam-text">Marketing</p>
                     </li>
                     <li class="ourteam-item">
-                        <img src="./images/team_member_4.jpg" alt="Михаил Ермаков" width="270" height="260">
+                        <img class="ourteam-img" src="./images/team_member_4.jpg" alt="Михаил Ермаков" width="270" height="260">
                         <h3 class="ourteam-title">Михаил Ермаков</h3>
-                        <p class="regular-text">UI Designer</p>
+                        <p class="ourteam-text">UI Designer</p>
                     </li>
                 </ul>
             </section>
         </main>
-<!--5 секция-->
-        <footer>
-            <a class="header-link" href="./index.html" class="logo">WebStudio</a>  
-            <address>г. Киев, пр-т Леси Украинки, 26</address>
-            <address class="header-email">
-                        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-            </address>
-            <address class="header-phone">
-                         <a href="tel:380961111111">+38 096 111 11 11</a>
-            </address>
+<!--Footer-->
+        <footer class="footer">
+            <a class="header-link" href="./index.html">WebStudio</a>  
+            <address class="adress">г. Киев, пр-т Леси Украинки, 26</address>
+            <ul class="header-adress">
+                <li class="header-email"><a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li class="header-phone"><a href="tel:380961111111">+38 096 111 11 11</a>
+                </li>
+            </ul>
         </footer>
     </body>
 </html>
