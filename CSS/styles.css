@@ -1,0 +1,45 @@
+/*font-family: "Raleway", sans-serif;
+font-family: "Roboto", sans-serif;*/
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.header-link {
+  font-family: "raleway", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1, 17;
+  letter-spacing: 0.03;
+  color: #2196f3;
+}
+/*header
+nav
+nav-list
+nav-item
+header-email
+header-phone
+hero
+hero-title
+hero-button
+about
+about-title
+about-list
+about-item
+about-title-2
+regular-text
+whatwedo
+whatwedo-title
+whatwedo-list
+whatwedo-item
+whatwedo-link
+whatwedo-img
+ourteam
+whatwedo-title
+ourteam-list
+ourteam-item */
