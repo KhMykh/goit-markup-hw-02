@@ -1,5 +1,13 @@
 /*font-family: "Raleway", sans-serif;
 font-family: "Roboto", sans-serif;*/
+:root {
+  --title-color:#fff;
+  --nav-color:#212121;
+  --nav-color-hover:#2196F3;
+  --nav-adress-color:#757575;
+  --nav-adress-hover: #2196F3;
+
+}
 
 .visually-hidden {
   position: absolute;
@@ -15,31 +23,33 @@ font-family: "Roboto", sans-serif;*/
   overflow: hidden;
 }
 
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
 body {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #212121;
-}
-.header {
   background-color: #fff;
 }
+
 .header-link {
-  text-decoration: none;
   font-family: "raleway", sans-serif;
   font-size: 25px;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  
 }
-.nav-list {
-  list-style: none;
-}
+
 .nav-item {
-  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -49,11 +59,8 @@ body {
 .nav-item:hover {
   color: #2196f3;
 }
-.header-adress {
-  list-style: none;
-}
+
 .header-email {
-  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.17;
@@ -63,7 +70,6 @@ body {
   color: #2196f3;
 }
 .header-phone {
-  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.17;
@@ -104,9 +110,7 @@ body {
 .about-title {
   display: none;
 }
-.about-list {
-  list-style: none;
-}
+
 .about-title-2 {
   font-weight: 900;
   font-size: 14px;
@@ -121,9 +125,7 @@ body {
 .whatwedo {
   background-color: #fff;
 }
-.whatwedo-list {
-  list-style: none;
-}
+
 .whatwedo-title {
   font-weight: 900;
   font-size: 36px;
@@ -132,9 +134,7 @@ body {
 }
 .ourteam {
   background-color: #f5f4fa;
-}
-.ourteam-list {
-  list-style: none;
+
 }
 .ourteam-title {
   font-weight: 500;
@@ -157,12 +157,7 @@ body {
 .adress {
   color: #fff;
 }
-.porfolio-nav {
-  list-style: none;
-}
-.portfolio-product {
-  list-style: none;
-}
+
 .portfolio-product-title {
   font-weight: 900;
   font-size: 18px;
